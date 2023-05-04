@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Types & Attributes</title>
+</head>
+<body>
+    <form>
+		<label for="text-input">Text Input:</label>
+		<input type="text" id="text-input" placeholder="Enter your name" pattern="[A-Za-z]+" minlength="2" maxlength="30"><br><br>
+		
+		<label for="password-input">Password Input:</label>
+		<input type="password" id="password-input" placeholder="Enter your password" minlength="6" maxlength="30"><br><br>
+		
+		<label for="email-input">Email Input:</label>
+		<input type="email" id="email-input" placeholder="Enter your email address" multiple><br><br>
+        
+		<label for="tel-input">Telephone Input:</label>
+		<input type="tel" id="tel-input" placeholder="Enter your telephone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+		
+		<label for="number-input">Number Input:</label>
+		<input type="number" id="number-input" placeholder="Enter a number between 1 and 10" min="1" max="10"><br><br>
+		
+		<label for="date-input">Date Input:</label>
+		<input type="date" id="date-input"><br><br>
+		
+		<label for="time-input">Time Input:</label>
+		<input type="time" id="time-input"><br><br>
+		
+		<label for="color-input">Color Input:</label>
+		<input type="color" id="color-input"><br><br>
+		
+		<label for="checkbox-input">Checkbox Input:</label>
+		<input type="checkbox" id="checkbox-input" checked><br><br>
+		
+		<label for="radio-input-1">Radio Input 1:</label>
+		<input type="radio" id="radio-input-1" name="radio-input-group" checked><br><br>
+		
+		<label for="radio-input-2">Radio Input 2:</label>
+		<input type="radio" id="radio-input-2" name="radio-input-group"><br><br>
+		
+		<label for="select-input">Select Input:</label>
+		<select id="select-input">
+			<option value="option-1">Option 1</option>
+			<option value="option-2">Option 2</option>
+			<option value="option-3">Option 3</option>
+		</select><br><br>
+		
+		<label for="textarea-input">Textarea Input:</label>
+		<textarea id="textarea-input" placeholder="Enter your message"></textarea><br><br>
+		
+		<label for="submit-button">Submit Button:</label>
+		<input type="submit" id="submit-button" value="Submit"><br><br>
+		
+		<label for="reset-button">Reset Button:</label>
+		<input type="reset" id="reset-button" value="Reset"><br><br>
+		
+		<label for="button">Button:</label>
+		<button id="button" type="button">Click Me!</button><br><br>
+	</form>
+</body>
+</html>
